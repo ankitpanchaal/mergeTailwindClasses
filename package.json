@@ -1,0 +1,29 @@
+{
+  "name": "mergetailwindclasses",
+  "version": "1.0.0",
+  "description": "marge classname",
+  "main": "lib/index.js",
+  "type": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js",
+    "build":"tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitpanchaal/mergeTailwindClasses.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "ankit panchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitpanchaal/mergeTailwindClasses/issues"
+  },
+  "homepage": "https://github.com/ankitpanchaal/mergeTailwindClasses#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
+  }
+}
