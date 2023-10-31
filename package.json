@@ -1,13 +1,13 @@
 {
   "name": "mergetailwindclasses",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "marge classname",
   "main": "lib/index.js",
   "type": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node index.js",
-    "build":"tsc -p ."
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
