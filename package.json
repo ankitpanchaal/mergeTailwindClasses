@@ -1,6 +1,6 @@
 {
   "name": "mergetailwindclasses",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "marge classname",
   "main": "lib/index.js",
   "type": "lib",

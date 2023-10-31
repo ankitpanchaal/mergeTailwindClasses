@@ -1,7 +1,7 @@
 function mergeTailwindClasses(currentClassName: string, propClassName: string) {
   if (!propClassName) return currentClassName;
 
-  const mainClassArr = currentClassName.split(" ");
+  const mainClassArr = currentClassName.replace(/\s+/g, " ").trim().split(" ");
   const classArr = propClassName.replace(/\s+/g, " ").trim().split(" ");
 
   classArr.forEach((item) => {
